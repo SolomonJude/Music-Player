@@ -38,3 +38,11 @@ musicPlayerSection.addEventListener('click', () => {
         clickCount = 1
     }, 250)
 })
+
+// BACK FROM MUSCI PLAYER
+
+const backToHome Btn = document.querySelector('.music-player-section .back-btn')
+
+backToHomeBtn.addEventListener('click', () => {
+    musicPlayerSection.classList.remove('active)
+})
